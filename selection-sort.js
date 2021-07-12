@@ -1,6 +1,6 @@
 // selection sort in all of its iteration finds the minimum unsorted number in an array and
 // places that minimum value from the starting position of the array in its sorted position.
-// At the end of each loop we make a swap.
+// At the end of each loop we swap.
 
 function selectionSort(numberArray, logic) {
 	if (numberArray.length < 2) return numberArray;
